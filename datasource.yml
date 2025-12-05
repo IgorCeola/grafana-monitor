@@ -1,0 +1,11 @@
+apiVersion: 1
+
+datasources:
+  - name: Prometheus
+    type: prometheus
+    url: 'https://prometheus-monitor.onrender.com'
+    access: proxy
+    isDefault: true
+    jsonData:
+      timeout: 60
+      tlsSkipVerify: true
